@@ -1,0 +1,37 @@
+pi@cnistreamer:~/darkice/darkice/trunk $ sudo darkice -v 4
+DarkIce 1.3 live audio streamer, http://code.google.com/p/darkice/
+Copyright (c) 2000-2007, Tyrell Hungary, http://tyrell.hu/
+Copyright (c) 2008-2013, Akos Maroy and Rafael Diniz
+This is free software, and you are welcome to redistribute it 
+under the terms of The GNU General Public License version 3 or
+any later version.
+
+Using config file: /etc/darkice.cfg
+25-Dec-2019 19:43:35 Using ALSA DSP input device: hw:0,1,0
+25-Dec-2019 19:43:35 buffer size:  882000
+25-Dec-2019 19:43:35 encoding
+25-Dec-2019 19:43:35 Using POSIX real-time scheduling, priority 4
+25-Dec-2019 19:44:05 BufferedSink :: write, couldn't reopen underlying sink, attempt 1 / 10
+25-Dec-2019 19:44:05 BufferedSink, new peak: 4096  /  882000
+25-Dec-2019 19:44:05 AlsaDspSource :: Buffer overrun!
+25-Dec-2019 19:44:35 BufferedSink :: write, couldn't reopen underlying sink, attempt 2 / 10
+25-Dec-2019 19:44:35 AlsaDspSource :: Buffer overrun!
+25-Dec-2019 19:45:05 BufferedSink :: write, couldn't reopen underlying sink, attempt 3 / 10
+25-Dec-2019 19:45:05 BufferedSink, new peak: 12288  /  882000
+25-Dec-2019 19:45:05 AlsaDspSource :: Buffer overrun!
+25-Dec-2019 19:45:35 BufferedSink :: write, couldn't reopen underlying sink, attempt 4 / 10
+25-Dec-2019 19:45:35 AlsaDspSource :: Buffer overrun!
+25-Dec-2019 19:46:05 BufferedSink :: write, couldn't reopen underlying sink, attempt 5 / 10
+25-Dec-2019 19:46:05 AlsaDspSource :: Buffer overrun!
+25-Dec-2019 19:46:35 BufferedSink :: write, couldn't reopen underlying sink, attempt 6 / 10
+25-Dec-2019 19:46:35 AlsaDspSource :: Buffer overrun!
+25-Dec-2019 19:47:05 BufferedSink :: write, couldn't reopen underlying sink, attempt 7 / 10
+25-Dec-2019 19:47:05 BufferedSink, new peak: 28672  /  882000
+25-Dec-2019 19:47:05 AlsaDspSource :: Buffer overrun!
+25-Dec-2019 19:47:35 BufferedSink :: write, couldn't reopen underlying sink, attempt 8 / 10
+25-Dec-2019 19:47:35 AlsaDspSource :: Buffer overrun!
+25-Dec-2019 19:48:05 BufferedSink :: write, couldn't reopen underlying sink, attempt 9 / 10
+25-Dec-2019 19:48:05 AlsaDspSource :: Buffer overrun!
+25-Dec-2019 19:48:35 BufferedSink :: write, couldn't reopen underlying sink, attempt 10 / 10
+25-Dec-2019 19:48:35 MultiThreadedConnector :: sinkThread reconnecting  0
+25-Dec-2019 19:48:35 AlsaDspSource :: Buffer overrun!
