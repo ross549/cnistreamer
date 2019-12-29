@@ -63,3 +63,26 @@ Using config file: /etc/darkice.cfg
 25-Dec-2019 19:52:11 BufferedSink :: write, couldn't reopen underlying sink, attempt 1 / 10
 25-Dec-2019 19:52:11 BufferedSink, new peak: 4096  /  882000
 25-Dec-2019 19:52:11 AlsaDspSource :: Buffer overrun!
+
+ATTEMPT 3 (added realtime = no to darkice.cfg):
+
+pi@cnistreamer:~ $ sudo darkice -v 10
+DarkIce 1.3 live audio streamer, http://code.google.com/p/darkice/
+Copyright (c) 2000-2007, Tyrell Hungary, http://tyrell.hu/
+Copyright (c) 2008-2013, Akos Maroy and Rafael Diniz
+This is free software, and you are welcome to redistribute it 
+under the terms of The GNU General Public License version 3 or
+any later version.
+
+Using config file: /etc/darkice.cfg
+28-Dec-2019 22:00:18 Using ALSA DSP input device: hw:0,1,0
+28-Dec-2019 22:00:18 buffer size:  882000
+28-Dec-2019 22:00:18 encoding
+28-Dec-2019 22:00:18 MultiThreadedConnector :: transfer, bytes 0
+28-Dec-2019 22:00:18 MultiThreadedConnector :: ThreadData :: threadFunction, was (thread, priority, type):  0x1632e18 0 SCHED_OTHER
+28-Dec-2019 22:00:18 MultiThreadedConnector :: ThreadData :: threadFunction, now is (thread, priority, type):  0x1632e18 1 SCHED_FIFO
+28-Dec-2019 22:00:48 server response length:  0
+28-Dec-2019 22:00:48 server response:  4??x9?????4???:??
+28-Dec-2019 22:00:48 BufferedSink :: write, couldn't reopen underlying sink, attempt 1 / 10
+28-Dec-2019 22:00:48 BufferedSink, new peak: 4096  /  882000
+28-Dec-2019 22:00:48 AlsaDspSource :: Buffer overrun!
